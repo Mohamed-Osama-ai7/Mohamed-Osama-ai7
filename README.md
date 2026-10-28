@@ -10,7 +10,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed_Osama-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamedosama-ai)
 [![Portfolio](https://img.shields.io/badge/Interactive_Portfolio-Live_Showcase-F59E0B?style=flat-square&logo=googlechrome&logoColor=white)](https://mohamed-osama-ai-portfol-ae5i1zi.gamma.site)
 [![GitHub](https://img.shields.io/badge/GitHub-Mohamed--Osama--ai7-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mohamed-Osama-ai7)
-[![Email](https://img.shields.io/badge/Email-Contact_Direct-38BDF8?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamedosama17122006@gmail.com)
 
 <br/>
 
@@ -145,10 +144,9 @@ DATA & COMPUTING     · Pandas · NumPy · SciPy · ColumnTransformers · Robust
 
 I build with engineering teams and technical leaders focused on solving tangible operational problems with explainable, production-ready machine learning.
 
-* **LinkedIn**: [linkedin.com/in/mohamedosama-ai](https://www.linkedin.com/in/mohamedosama-ai)
+* **LinkedIn**: [linkedin.com/in/mohamedosama-ai](https://www.linkedin.com/in/mohamedosama-ai) *(Primary Contact)*
 * **Interactive Portfolio**: [mohamed-osama-ai-portfol-ae5i1zi.gamma.site](https://mohamed-osama-ai-portfol-ae5i1zi.gamma.site)
 * **GitHub**: [github.com/Mohamed-Osama-ai7](https://github.com/Mohamed-Osama-ai7)
-* **Email**: [mohamedosama17122006@gmail.com](mailto:mohamedosama17122006@gmail.com)
 
 <br/>
 
