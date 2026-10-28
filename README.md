@@ -1,101 +1,157 @@
 <div align="center">
 
-# Mohamed Osama
+# 🎬 A CINEMATIC AI ENGINEERING PROFILE · MOHAMED OSAMA
 
-**Applied AI & Machine Learning Engineer**  
-*Computer Vision · Industrial AI & Digital Twins · Predictive ML Engineering · Full-Stack Systems*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed_Osama-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamedosama-ai)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Interactive_Showcase-6C5CE7?logo=googlechrome&logoColor=white)](https://mohamed-osama-ai-portfol-ae5i1zi.gamma.site)
-[![GitHub](https://img.shields.io/badge/GitHub-Mohamed--Osama--ai7-181717?logo=github)](https://github.com/Mohamed-Osama-ai7)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&logoColor=white)](mailto:mohamedosama17122006@gmail.com)
+**Applied AI & Machine Learning Engineer · Cairo, Egypt**  
+*Designing Practical Intelligent Systems · Industrial Cognitive Architectures · Calibrated Predictive ML*
 
 <br/>
 
-<img src="assets/banner.jpg" alt="Mohamed Osama Banner" width="100%" style="border-radius: 8px;" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed_Osama-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamedosama-ai)
+[![Portfolio](https://img.shields.io/badge/Interactive_Portfolio-Live_Showcase-F59E0B?style=flat-square&logo=googlechrome&logoColor=white)](https://mohamed-osama-ai-portfol-ae5i1zi.gamma.site)
+[![GitHub](https://img.shields.io/badge/GitHub-Mohamed--Osama--ai7-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mohamed-Osama-ai7)
+[![Email](https://img.shields.io/badge/Email-Contact_Direct-38BDF8?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamedosama17122006@gmail.com)
+
+<br/>
+
+<img src="assets/banner.jpg" alt="Mohamed Osama Cinematic Banner" width="100%" style="border-radius: 6px; border: 1px solid #1E293B;" />
 
 </div>
 
----
+<br/>
 
-### 💡 Executive Profile
+<div align="center">
+─────── ◇ ───────
+</div>
 
-I engineer end-to-end artificial intelligence and machine learning platforms built for mission-critical operations. My work spans the full intelligence lifecycle — from mathematical problem formulation, sensor telemetry ingestion, and signal DSP to leak-free feature engineering, calibrated multi-model ensembles, SHAP explainability, and containerized microservice architectures.
+## 🎬 The Point of View
 
-Key focus areas:
-- **Industrial Decision Intelligence**: Cognitive digital twin architectures, IIoT telemetry streaming, and predictive asset degradation modeling.
-- **Enterprise Risk & Predictive Analytics**: Calibrated risk engines, payment delay forecasting, and customer retention systems.
-- **Explainable AI (XAI)**: SHAP/tree attribution, isotonic calibration, and deterministic decision playbooks.
-- **Production ML Systems**: Containerized pipelines, FastAPI inference microservices, and interactive Streamlit analytics consoles.
+> *"Engineering applied AI systems that convert noisy operational telemetry, unstructured text, and enterprise risk signals into calibrated, deterministic decision engines."*
 
----
+```text
+[SYSTEM_ID]   : MOHAMED-OSAMA-AI7
+[ROLE]        : Applied AI & Machine Learning Engineer
+[LOCATION]    : Cairo, Egypt
+[PILLARS]     : Machine Learning · Deep Learning · Natural Language Processing · Industrial AI
+[PARADIGM]    : Leak-Free Preprocessing · Explainable Attribution (SHAP) · Reproducible Pipelines
+```
 
-## 🚀 Featured Flagship Platforms
+<div align="center">
+─────── ◇ ───────
+</div>
 
-### 1. [InvoiceGuard AI](https://github.com/Mohamed-Osama-ai7/Inovice-Guard-ai)
-**Enterprise Receivables Intelligence & Cash Flow Risk Engine**  
-Deploys five concurrent scikit-learn pipelines (binary default classification, days-late regression, NLP dispute extraction, repurchase prediction, and customer revenue forecasting). Features SHAP explainability trees, a multi-signal composite risk score, deterministic P1–P4 action playbooks, and RBAC authentication.
+## 🏭 Leading Production: FactoryMind-CDT
 
-[![Live App](https://img.shields.io/badge/Live_App-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://inovice-guard-ai-17.streamlit.app/)
-[![Repository](https://img.shields.io/badge/GitHub-Inovice--Guard--ai-181717?logo=github)](https://github.com/Mohamed-Osama-ai7/Inovice-Guard-ai)  
+### [FactoryMind-CDT](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT) — Cognitive Digital Twin Framework
+*Architectural Specification & Conceptual Engineering Design (Active R&D)*
+
+An industrial AI framework designed to bridge continuous IIoT sensor telemetry with predictive maintenance intelligence and closed-loop decision reasoning in high-throughput manufacturing plants.
+
+```
+  ┌───────────┐      ┌──────────────┐      ┌────────────┐      ┌───────────┐      ┌───────────┐
+  │   SENSE   │ ───► │  UNDERSTAND  │ ───► │  SIMULATE  │ ───► │  DECIDE   │ ───► │   LEARN   │
+  └───────────┘      └──────────────┘      └────────────┘      └───────────┘      └───────────┘
+   Multi-sensor       Anomaly Scoring       Degradation          Prescriptive      Closed-Loop
+    Telemetry           & Signatures         & RUL Curve         Intervention       Feedback
+```
+
+* **SENSE**: Edge aggregation and DSP filtering for multi-modal telemetry streams (vibration accelerometry, thermal transients, acoustic emissions, pressure).
+* **UNDERSTAND**: Real-time spectral FFT feature extraction coupled with unsupervised anomaly scoring (Isolation Forests / Autoencoder reconstruction error) to detect micro-faults prior to critical failure.
+* **SIMULATE**: Dynamic physics-informed degradation trajectories and Weibull hazard estimation to project Remaining Useful Life (RUL) under variable operational loads.
+* **DECIDE**: Prescriptive maintenance dispatching calibrated against ISO 10816 vibration severity standards, routing automated work orders with root-cause attribution.
+* **LEARN**: Continuous feedback loop updating sensor baseline thresholds using post-intervention maintenance logs.
+
+[![Repository](https://img.shields.io/badge/GitHub-FactoryMind--CDT-181717?style=flat-square&logo=github)](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)
+[![Domain](https://img.shields.io/badge/Domain-Industrial_AI_%26_Digital_Twins-38BDF8?style=flat-square)](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)
+[![Status](https://img.shields.io/badge/Status-Architectural_R%26D-F59E0B?style=flat-square)](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)
+
+`Python` `Industrial AI` `Edge ML` `Signal DSP (FFT)` `Digital Twins` `OPC-UA / MQTT` `TimescaleDB`
+
+<div align="center">
+─────── ◇ ───────
+</div>
+
+## 📽️ Featured Reel
+
+### 1. [InvoiceGuard AI](https://github.com/Mohamed-Osama-ai7/Inovice-Guard-ai) — Enterprise Receivables Intelligence
+**Multi-Signal Financial Risk Engine & Interactive Decision Console**  
+Predicts commercial late-payment risk, quantifies revenue exposure, and extracts customer sentiment from unstructured communication history.
+* **Architecture**: Deploys five concurrent scikit-learn models (binary payment risk classification, days-late regression, dispute NLP, repurchase scoring, and future revenue estimation).
+* **Explainability & Controls**: Full SHAP TreeExplainer feature attribution for every prediction, multi-signal composite risk scoring, deterministic P1–P4 action playbooks, and PBKDF2-HMAC authenticated RBAC security.
+
+[![Live App](https://img.shields.io/badge/Live_App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://inovice-guard-ai-17.streamlit.app/)
+[![Repository](https://img.shields.io/badge/GitHub-Inovice--Guard--ai-181717?style=flat-square&logo=github)](https://github.com/Mohamed-Osama-ai7/Inovice-Guard-ai)  
 `Python` `scikit-learn` `XGBoost` `SHAP` `FastAPI` `Streamlit` `PBKDF2-HMAC`
 
 ---
 
-### 2. [FactoryMind-CDT](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)
-**Cognitive Digital Twin for Industrial Decision Intelligence**  
-Built around the **SENSE · UNDERSTAND · SIMULATE · DECIDE · LEARN** closed-loop paradigm for discrete and continuous manufacturing. Combines vibration DSP (FFT, envelope analysis), multivariate anomaly detection (Isolation Forests / Autoencoders), Weibull degradation modeling, and automated work-order dispatch.
+### 2. [Enterprise Customer Churn AI](https://github.com/Mohamed-Osama-ai7/enterprise-customer-churn-ai) — Retention Analytics Engine
+**14-Model Classical ML Benchmark & Production Diagnostic Platform**  
+End-to-end customer churn prediction platform built to test, calibrate, and serve classical ML algorithms without deep learning overhead.
+* **Benchmarking**: Rigorously benchmarked 14 algorithms — **Logistic Regression Champion (81.4% Accuracy, 0.834 ROC-AUC, 69.9% Precision)**, **Stacking Meta-Ensemble (80.4% Accuracy, 0.828 ROC-AUC)**, LDA, and Gradient Boosting ensembles.
+* **Leak-Free Engineering**: `RobustScaler` preprocessing for skewed billing distributions, `ColumnTransformer` encapsulation, automated business ratios (`ChargesPerTenure`), and unsupervised K-Means customer persona segmentation.
+* **Production Serving**: Interactive Streamlit diagnostic console for single-customer simulation and batch CSV scoring, containerized with Docker & Docker-Compose and validated with GitHub Actions CI/CD.
 
-[![Repository](https://img.shields.io/badge/GitHub-FactoryMind--CDT-181717?logo=github)](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)  
-`Python` `Industrial AI` `Edge ML` `Signal Processing` `Digital Twins` `OPC-UA`
-
----
-
-### 3. [Enterprise Customer Churn AI](https://github.com/Mohamed-Osama-ai7/enterprise-customer-churn-ai)
-**End-to-End Retention Platform & 14-Model ML Benchmark**  
-Industrial machine learning pipeline comparing 14 classical estimators (Logistic Regression, Stacking Meta-Learner, AdaBoost, Extra Trees, Gradient Boosting). Implements leak-free `ColumnTransformer` preprocessing with `RobustScaler`, unsupervised K-Means customer persona segmentation, and an interactive diagnostic Streamlit simulator with Docker orchestration.
-
-[![Repository](https://img.shields.io/badge/GitHub-enterprise--customer--churn--ai-181717?logo=github)](https://github.com/Mohamed-Osama-ai7/enterprise-customer-churn-ai)  
-`Python` `scikit-learn` `Stacking Ensembles` `Docker` `Streamlit` `CI/CD`
+[![Repository](https://img.shields.io/badge/GitHub-enterprise--customer--churn--ai-181717?style=flat-square&logo=github)](https://github.com/Mohamed-Osama-ai7/enterprise-customer-churn-ai)
+[![Framework](https://img.shields.io/badge/Stack-scikit--learn_%7C_Docker_%7C_Streamlit-38BDF8?style=flat-square)](https://github.com/Mohamed-Osama-ai7/enterprise-customer-churn-ai)  
+`Python` `scikit-learn` `Stacking Meta-Learner` `Docker` `Streamlit` `GitHub Actions`
 
 ---
 
-### 4. [Promise Guard](https://github.com/Mohamed-Osama-ai7/promise-guard)
-**Corporate Commitment Tracking & Sentiment Risk Engine**  
-Natural language processing platform analyzing executive statements and enterprise commitments. Combines TF-IDF vectorization, transformer-based RoBERTa sentiment modeling, and Random Forest risk classification to extract deliverables, deadlines, and delivery confidence scores.
+### 3. [Promise Guard](https://github.com/Mohamed-Osama-ai7/promise-guard) — Corporate Commitment Risk Engine
+**NLP Analysis & Transformer-Based Delivery Scoring**  
+Analyzes executive commitments and enterprise statements to extract deliverables, deadlines, and delivery confidence scores.
+* **NLP Pipeline**: Combines TF-IDF text vectorization, transformer-based RoBERTa sentiment modeling, and a Random Forest risk classifier to evaluate corporate accountability across historical quarters.
+* **Interface**: Interactive Streamlit monitoring dashboard tracking multi-quarter delivery confidence.
 
-[![Repository](https://img.shields.io/badge/GitHub-promise--guard-181717?logo=github)](https://github.com/Mohamed-Osama-ai7/promise-guard)  
+[![Repository](https://img.shields.io/badge/GitHub-promise--guard-181717?style=flat-square&logo=github)](https://github.com/Mohamed-Osama-ai7/promise-guard)  
 `Python` `NLP` `RoBERTa` `Transformers` `scikit-learn` `Streamlit`
 
----
+<div align="center">
+─────── ◇ ───────
+</div>
 
-## 🛠️ Technical Stack & Competencies
+## 🎨 Production Palette
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Machine Learning** | scikit-learn, XGBoost, LightGBM, CatBoost, Stacking/Voting Ensembles, Isotonic Calibration |
-| **Deep Learning & NLP** | PyTorch, HuggingFace Transformers, RoBERTa, TF-IDF, Semantic Entity Extraction |
-| **Model Explainability** | SHAP (TreeExplainer / KernelExplainer), Feature Importance Attribution, Permutation Importance |
-| **Serving & APIs** | FastAPI, Pydantic v2, RESTful Microservices, Streamlit, Uvicorn |
-| **Data Engineering** | Pandas, NumPy, SciPy, Polars, ColumnTransformers, Point-in-Time Feature Engineering |
-| **Industrial / Edge AI** | Signal Processing (FFT, Wavelets), Vibration Severity Analysis (ISO 10816), MQTT, OPC-UA |
-| **DevOps & Infrastructure**| Docker, Docker Compose, GitHub Actions, Linux, Git, Virtual Environments |
-| **Full-Stack & Databases**| Angular, TypeScript, Node.js, Express.js, MongoDB, TimescaleDB, PostgreSQL |
+A focused, verified engineering toolkit chosen for mathematical rigor and operational reliability:
 
----
+```text
+MACHINE LEARNING     · scikit-learn · XGBoost · LightGBM · CatBoost · Stacking / Voting Ensembles · Isotonic Calibration
+DEEP LEARNING & NLP  · PyTorch · HuggingFace Transformers · RoBERTa · TF-IDF · Entity Extraction
+MODEL EXPLAINABILITY · SHAP (TreeExplainer / KernelExplainer) · Permutation Importance · Feature Attribution
+SERVING & DEVOPS     · FastAPI · Pydantic v2 · Streamlit · Docker · Docker-Compose · GitHub Actions CI/CD
+DATA & TELEMETRY     · Pandas · NumPy · SciPy · ColumnTransformers · Signal DSP (FFT) · OPC-UA / MQTT
+```
 
-## ⚙️ Engineering Principles
+<div align="center">
+─────── ◇ ───────
+</div>
 
-- **Leakage Prevention**: Point-in-time transformations encapsulated within cross-validation folds; no data contamination across train/validation boundaries.
-- **Explainable by Design**: Every predictive inference provides interpretable attributions (SHAP values, feature ranking) for operational trust.
-- **Production Reproducibility**: Deterministic random seeding, explicit dependency pinning, and serialized pipeline artifacts.
-- **Security & Integrity**: Secure environment variable handling, zero credential leaks, and cryptographic authentication hashing.
+## 📊 Telemetry & System Activity
 
----
+<div align="center">
 
-## 📬 Let's Connect
+<img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Osama-ai7&show_icons=true&bg_color=0a0d14&title_color=38bdf8&text_color=e2e8f0&icon_color=fbbf24&border_color=1e293b&hide_border=false" height="175" alt="GitHub Stats" />
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Osama-ai7&layout=compact&bg_color=0a0d14&title_color=38bdf8&text_color=e2e8f0&icon_color=fbbf24&border_color=1e293b&hide_border=false" height="175" alt="Top Languages" />
 
-- **LinkedIn**: [linkedin.com/in/mohamedosama-ai](https://www.linkedin.com/in/mohamedosama-ai)
-- **Portfolio**: [mohamed-osama-ai-portfol-ae5i1zi.gamma.site](https://mohamed-osama-ai-portfol-ae5i1zi.gamma.site)
-- **GitHub**: [github.com/Mohamed-Osama-ai7](https://github.com/Mohamed-Osama-ai7)
-- **Email**: [mohamedosama17122006@gmail.com](mailto:mohamedosama17122006@gmail.com)
+</div>
+
+<div align="center">
+─────── ◇ ───────
+</div>
+
+## 🎬 The Next Scene: Connect & Collaborate
+
+I build with engineering teams and technical leaders focused on solving tangible operational problems with explainable, production-ready machine learning.
+
+* **LinkedIn**: [linkedin.com/in/mohamedosama-ai](https://www.linkedin.com/in/mohamedosama-ai)
+* **Interactive Portfolio**: [mohamed-osama-ai-portfol-ae5i1zi.gamma.site](https://mohamed-osama-ai-portfol-ae5i1zi.gamma.site)
+* **GitHub**: [github.com/Mohamed-Osama-ai7](https://github.com/Mohamed-Osama-ai7)
+* **Email**: [mohamedosama17122006@gmail.com](mailto:mohamedosama17122006@gmail.com)
+
+<br/>
+
+<div align="center">
+<sub>Designed with the GitSkins Cinematic visual framework · Mohamed Osama © 2026</sub>
+</div>
