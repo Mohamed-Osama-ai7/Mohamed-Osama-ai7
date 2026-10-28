@@ -40,10 +40,10 @@
 ─────── ◇ ───────
 </div>
 
-## 🏭 Leading Production: FactoryMind-CDT
+## 🏭 Flagship Project: FactoryMind-CDT
 
 ### [FactoryMind-CDT](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT) — Cognitive Digital Twin Framework
-*Architectural Specification & Conceptual Engineering Design (Active R&D)*
+*Architectural Specification & Conceptual Engineering Design (R&D Initiative)*
 
 An industrial AI framework designed to bridge continuous IIoT sensor telemetry with predictive maintenance intelligence and closed-loop decision reasoning in high-throughput manufacturing plants.
 
@@ -55,17 +55,17 @@ An industrial AI framework designed to bridge continuous IIoT sensor telemetry w
     Telemetry           & Signatures         & RUL Curve         Intervention       Feedback
 ```
 
-* **SENSE**: Edge aggregation and DSP filtering for multi-modal telemetry streams (vibration accelerometry, thermal transients, acoustic emissions, pressure).
-* **UNDERSTAND**: Real-time spectral FFT feature extraction coupled with unsupervised anomaly scoring (Isolation Forests / Autoencoder reconstruction error) to detect micro-faults prior to critical failure.
-* **SIMULATE**: Dynamic physics-informed degradation trajectories and Weibull hazard estimation to project Remaining Useful Life (RUL) under variable operational loads.
+* **SENSE**: Specification for multi-modal telemetry acquisition (vibration accelerometry, thermal transients, acoustic emissions, pressure) with edge digital signal processing (DSP) filtering.
+* **UNDERSTAND**: Proposed spectral FFT feature extraction coupled with unsupervised anomaly scoring (Isolation Forests / Autoencoder reconstruction error) to detect micro-faults prior to critical failure.
+* **SIMULATE**: Proposed physics-informed degradation trajectories and Weibull hazard estimation to project Remaining Useful Life (RUL) under variable operational loads.
 * **DECIDE**: Prescriptive maintenance dispatching calibrated against ISO 10816 vibration severity standards, routing automated work orders with root-cause attribution.
-* **LEARN**: Continuous feedback loop updating sensor baseline thresholds using post-intervention maintenance logs.
+* **LEARN**: Continuous closed-loop feedback protocol updating sensor baseline thresholds using post-intervention maintenance teardown logs.
 
 [![Repository](https://img.shields.io/badge/GitHub-FactoryMind--CDT-181717?style=flat-square&logo=github)](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)
 [![Domain](https://img.shields.io/badge/Domain-Industrial_AI_%26_Digital_Twins-38BDF8?style=flat-square)](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)
-[![Status](https://img.shields.io/badge/Status-Architectural_R%26D-F59E0B?style=flat-square)](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)
+[![Status](https://img.shields.io/badge/Status-Architectural_Design-F59E0B?style=flat-square)](https://github.com/Mohamed-Osama-ai7/FactoryMind-CDT)
 
-`Python` `Industrial AI` `Edge ML` `Signal DSP (FFT)` `Digital Twins` `OPC-UA / MQTT` `TimescaleDB`
+*Target Architecture:* `Industrial AI` `Digital Twins` `Edge Ingestion` `Signal DSP (FFT)` `OPC-UA / MQTT` `TimescaleDB`
 
 <div align="center">
 ─────── ◇ ───────
@@ -81,16 +81,16 @@ Predicts commercial late-payment risk, quantifies revenue exposure, and extracts
 
 [![Live App](https://img.shields.io/badge/Live_App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://inovice-guard-ai-17.streamlit.app/)
 [![Repository](https://img.shields.io/badge/GitHub-Inovice--Guard--ai-181717?style=flat-square&logo=github)](https://github.com/Mohamed-Osama-ai7/Inovice-Guard-ai)  
-`Python` `scikit-learn` `XGBoost` `SHAP` `FastAPI` `Streamlit` `PBKDF2-HMAC`
+`Python` `scikit-learn` `XGBoost` `SHAP` `Streamlit` `PBKDF2-HMAC Security`
 
 ---
 
 ### 2. [Enterprise Customer Churn AI](https://github.com/Mohamed-Osama-ai7/enterprise-customer-churn-ai) — Retention Analytics Engine
-**14-Model Classical ML Benchmark & Production Diagnostic Platform**  
+**13-Model Classical ML Benchmark & Retention Analytics Platform**  
 End-to-end customer churn prediction platform built to test, calibrate, and serve classical ML algorithms without deep learning overhead.
-* **Benchmarking**: Rigorously benchmarked 14 algorithms — **Logistic Regression Champion (81.4% Accuracy, 0.834 ROC-AUC, 69.9% Precision)**, **Stacking Meta-Ensemble (80.4% Accuracy, 0.828 ROC-AUC)**, LDA, and Gradient Boosting ensembles.
+* **Benchmarking**: Rigorously benchmarked 13 algorithms — **Logistic Regression Champion (81.4% Accuracy, 0.834 ROC-AUC, 69.9% Precision)**, **Stacking Meta-Ensemble (80.4% Accuracy, 0.828 ROC-AUC)**, LDA, and Gradient Boosting ensembles. Champion selected for superior ROC-AUC discriminative ranking power and optimal operational balance between precision (69.9%) and recall (50.8%).
 * **Leak-Free Engineering**: `RobustScaler` preprocessing for skewed billing distributions, `ColumnTransformer` encapsulation, automated business ratios (`ChargesPerTenure`), and unsupervised K-Means customer persona segmentation.
-* **Production Serving**: Interactive Streamlit diagnostic console for single-customer simulation and batch CSV scoring, containerized with Docker & Docker-Compose and validated with GitHub Actions CI/CD.
+* **Diagnostic Serving**: Interactive Streamlit diagnostic console for single-customer simulation and batch CSV scoring, containerized with Docker & Docker-Compose and validated with GitHub Actions CI/CD.
 
 [![Repository](https://img.shields.io/badge/GitHub-enterprise--customer--churn--ai-181717?style=flat-square&logo=github)](https://github.com/Mohamed-Osama-ai7/enterprise-customer-churn-ai)
 [![Framework](https://img.shields.io/badge/Stack-scikit--learn_%7C_Docker_%7C_Streamlit-38BDF8?style=flat-square)](https://github.com/Mohamed-Osama-ai7/enterprise-customer-churn-ai)  
@@ -116,11 +116,11 @@ Analyzes executive commitments and enterprise statements to extract deliverables
 A focused, verified engineering toolkit chosen for mathematical rigor and operational reliability:
 
 ```text
-MACHINE LEARNING     · scikit-learn · XGBoost · LightGBM · CatBoost · Stacking / Voting Ensembles · Isotonic Calibration
-DEEP LEARNING & NLP  · PyTorch · HuggingFace Transformers · RoBERTa · TF-IDF · Entity Extraction
-MODEL EXPLAINABILITY · SHAP (TreeExplainer / KernelExplainer) · Permutation Importance · Feature Attribution
-SERVING & DEVOPS     · FastAPI · Pydantic v2 · Streamlit · Docker · Docker-Compose · GitHub Actions CI/CD
-DATA & TELEMETRY     · Pandas · NumPy · SciPy · ColumnTransformers · Signal DSP (FFT) · OPC-UA / MQTT
+MACHINE LEARNING     · scikit-learn · XGBoost · Stacking & Voting Ensembles · Hyperparameter Tuning (GridSearchCV)
+DEEP LEARNING & NLP  · PyTorch · HuggingFace Transformers · RoBERTa · TF-IDF Vectorization · Sentiment Modeling
+MODEL EXPLAINABILITY · SHAP (TreeExplainer) · Feature Attribution · Confusion Matrices · ROC-AUC Analytics
+SERVING & DEVOPS     · Streamlit · Docker · Docker-Compose · GitHub Actions CI/CD · Modular Pipelines
+DATA & COMPUTING     · Pandas · NumPy · SciPy · ColumnTransformers · RobustScaler · Unsupervised Clustering (K-Means)
 ```
 
 <div align="center">
