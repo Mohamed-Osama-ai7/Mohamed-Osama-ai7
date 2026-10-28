@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06080E" />
+      <stop offset="50%" stop-color="#0A0D18" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Glowing Accents -->
+    <radialGradient id="glow-cyan" cx="15%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-purple" cx="85%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.30" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-blue" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="35%" stop-color="#22D3EE" />
+      <stop offset="70%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+    
+    <linearGradient id="sub-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.5" />
+      <circle cx="0" cy="0" r="1" fill="#38BDF8" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title { font-weight: 900; letter-spacing: 2px; }
+    .subtitle { font-weight: 700; letter-spacing: 3px; }
+    .badge-text { font-size: 11px; font-weight: 600; fill: #E2E8F0; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="996" height="316" rx="14" fill="url(#bg-grad)" stroke="url(#border-grad)" stroke-width="1.5" />
+  
+  <!-- Subtle Grid Overlay -->
+  <rect x="2" y="2" width="996" height="316" rx="14" fill="url(#grid)" />
+  
+  <!-- Ambient Glow Spots -->
+  <rect x="2" y="2" width="996" height="316" rx="14" fill="url(#glow-cyan)" />
+  <rect x="2" y="2" width="996" height="316" rx="14" fill="url(#glow-purple)" />
+  <rect x="2" y="2" width="996" height="316" rx="14" fill="url(#glow-blue)" />
+
+  <!-- Corner Tech Accents -->
+  <path d="M 20 40 L 20 20 L 40 20" stroke="#38BDF8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 980 40 L 980 20 L 960 20" stroke="#A855F7" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 20 280 L 20 300 L 40 300" stroke="#22D3EE" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 980 280 L 980 300 L 960 300" stroke="#F59E0B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Top System Status Pill -->
+  <g transform="translate(35, 45)">
+    <rect x="0" y="0" width="310" height="26" rx="13" fill="#0E1726" stroke="#1E293B" stroke-width="1.2" />
+    <circle cx="14" cy="13" r="4" fill="#34D399">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="26" y="17" fill="#94A3B8" class="mono badge-text">SYSTEM_ONLINE // MOHAMED-OSAMA-AI7</text>
+  </g>
+
+  <!-- Location & Focus Badge (Top Right) -->
+  <g transform="translate(680, 45)">
+    <rect x="0" y="0" width="285" height="26" rx="13" fill="#0E1726" stroke="#1E293B" stroke-width="1.2" />
+    <text x="18" y="17" fill="#38BDF8" class="mono badge-text">📍 CAIRO, EG · APPLIED AI CORE</text>
+  </g>
+
+  <!-- Main Hero Wordmark Title -->
+  <g transform="translate(50, 140)">
+    <text x="0" y="0" fill="url(#title-grad)" class="sans title" font-size="56" filter="url(#shadow)">MOHAMED OSAMA</text>
+  </g>
+
+  <!-- Professional Subtitle -->
+  <g transform="translate(52, 185)">
+    <text x="0" y="0" fill="url(#sub-grad)" class="mono subtitle" font-size="16">APPLIED AI &amp; MACHINE LEARNING ENGINEER</text>
+  </g>
+
+  <!-- Tagline Definition -->
+  <g transform="translate(52, 222)">
+    <text x="0" y="0" fill="#94A3B8" class="sans" font-size="14.5" font-weight="400">
+      Engineering practical intelligent systems that convert noisy operational telemetry &amp; unstructured signals into calibrated decisions.
+    </text>
+  </g>
+
+  <!-- Bottom Interactive Focus Pills -->
+  <g transform="translate(52, 255)">
+    <!-- Pill 1: Machine Learning -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="165" height="28" rx="6" fill="#131C31" stroke="#38BDF8" stroke-width="1.2" />
+      <text x="14" y="18" fill="#38BDF8" class="sans" font-size="12" font-weight="600">⚡ Machine Learning</text>
+    </g>
+    <!-- Pill 2: Deep Learning & NLP -->
+    <g transform="translate(175, 0)">
+      <rect x="0" y="0" width="180" height="28" rx="6" fill="#1E1435" stroke="#A855F7" stroke-width="1.2" />
+      <text x="14" y="18" fill="#C084FC" class="sans" font-size="12" font-weight="600">🧠 Deep Learning &amp; NLP</text>
+    </g>
+    <!-- Pill 3: Industrial AI -->
+    <g transform="translate(365, 0)">
+      <rect x="0" y="0" width="195" height="28" rx="6" fill="#0C202E" stroke="#22D3EE" stroke-width="1.2" />
+      <text x="14" y="18" fill="#22D3EE" class="sans" font-size="12" font-weight="600">🏭 Cognitive Digital Twins</text>
+    </g>
+    <!-- Pill 4: Decision Systems -->
+    <g transform="translate(570, 0)">
+      <rect x="0" y="0" width="180" height="28" rx="6" fill="#251A07" stroke="#F59E0B" stroke-width="1.2" />
+      <text x="14" y="18" fill="#FBBF24" class="sans" font-size="12" font-weight="600">🎯 Calibrated Decisions</text>
+    </g>
+    <!-- Pill 5: Full-Stack Systems -->
+    <g transform="translate(760, 0)">
+      <rect x="0" y="0" width="140" height="28" rx="6" fill="#0A2218" stroke="#34D399" stroke-width="1.2" />
+      <text x="12" y="18" fill="#34D399" class="sans" font-size="12" font-weight="600">🛠️ MEAN Stack</text>
+    </g>
+  </g>
+</svg>
