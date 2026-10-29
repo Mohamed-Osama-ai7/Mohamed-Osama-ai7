@@ -2,11 +2,11 @@
 
 <div align="center">
 <table width="100%"><tbody><tr><td width="68%">
-<p><sub><span style="color:#f85149;">●</span> RECRUITER SIGNAL BRIEF · Mohamed-Osama-ai7</sub></p>
+<p><sub><span style="color:#FF4500;">●</span> RECRUITER SIGNAL BRIEF · Mohamed-Osama-ai7</sub></p>
 <h1>Mohamed Osama</h1>
 <h2>AI &amp; Machine Learning Engineer</h2>
 <p>Architecting applied AI systems, machine learning benchmarks, and industrial digital twins.</p>
-<p><strong><span style="color:#f85149;">●</span> Machine Learning · Deep Learning · NLP · Practical Intelligent Systems</strong></p>
+<p><strong><span style="color:#FF4500;">●</span> Machine Learning · Deep Learning · NLP · Practical Intelligent Systems</strong></p>
 <p><sub>📍 Based in Cairo, Egypt · Open to Remote &amp; Global Opportunities</sub></p>
 <p>
   <a href="https://github.com/Mohamed-Osama-ai7">GitHub</a> · 
@@ -14,7 +14,7 @@
   <a href="https://mohamed-osama-ai-portfol-ae5i1zi.gamma.site">Interactive Portfolio</a>
 </p>
 </td><td width="32%" align="center" style="text-align:center">
-<img loading="lazy" decoding="async" width="160" alt="Mohamed Osama avatar" src="https://avatars.githubusercontent.com/u/277105326?v=4" style="border-radius:50%; border:2px solid #f85149;" />
+<img loading="lazy" decoding="async" width="160" alt="Mohamed Osama avatar" src="https://avatars.githubusercontent.com/u/277105326?v=4" style="border-radius:50%; border:2px solid #FF4500;" />
 </td></tr></tbody></table>
 </div>
 
@@ -55,8 +55,8 @@ Leak-free pipelines (<code>ColumnTransformer</code>, <code>RobustScaler</code>) 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcSet="https://www.gitskins.com/api/section/stats?username=Mohamed-Osama-ai7&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-stats-1&amp;mode=light"/>
-  <img loading="lazy" decoding="async" width="100%" alt="Mohamed Osama GitHub proof metrics" src="https://www.gitskins.com/api/section/stats?username=Mohamed-Osama-ai7&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-stats-1&amp;mode=dark"/>
+  <source media="(prefers-color-scheme: light)" srcSet="https://www.gitskins.com/api/section/stats?username=Mohamed-Osama-ai7&amp;theme=satan&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-stats-1&amp;mode=light"/>
+  <img loading="lazy" decoding="async" width="100%" alt="Mohamed Osama GitHub proof metrics" src="https://www.gitskins.com/api/section/stats?username=Mohamed-Osama-ai7&amp;theme=satan&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-stats-1&amp;mode=dark"/>
 </picture>
 </p>
 
@@ -67,8 +67,8 @@ Leak-free pipelines (<code>ColumnTransformer</code>, <code>RobustScaler</code>) 
 <table width="100%"><tbody><tr>
 <td width="58%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcSet="https://www.gitskins.com/api/section/projects?username=Mohamed-Osama-ai7&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;repos=Mohamed-Osama-ai7%2FFactoryMind-CDT%2CMohamed-Osama-ai7%2Fenterprise-customer-churn-ai%2CMohamed-Osama-ai7%2FInovice-Guard-ai%2CMohamed-Osama-ai7%2Fpromise-guard&amp;v=recruiter-projects-1&amp;mode=light"/>
-  <img loading="lazy" decoding="async" width="100%" alt="Mohamed Osama selected projects" src="https://www.gitskins.com/api/section/projects?username=Mohamed-Osama-ai7&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;repos=Mohamed-Osama-ai7%2FFactoryMind-CDT%2CMohamed-Osama-ai7%2Fenterprise-customer-churn-ai%2CMohamed-Osama-ai7%2FInovice-Guard-ai%2CMohamed-Osama-ai7%2Fpromise-guard&amp;v=recruiter-projects-1&amp;mode=dark"/>
+  <source media="(prefers-color-scheme: light)" srcSet="https://www.gitskins.com/api/section/projects?username=Mohamed-Osama-ai7&amp;theme=satan&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;repos=Mohamed-Osama-ai7%2FFactoryMind-CDT%2CMohamed-Osama-ai7%2Fenterprise-customer-churn-ai%2CMohamed-Osama-ai7%2FInovice-Guard-ai%2CMohamed-Osama-ai7%2Fpromise-guard&amp;v=recruiter-projects-1&amp;mode=light"/>
+  <img loading="lazy" decoding="async" width="100%" alt="Mohamed Osama selected projects" src="https://www.gitskins.com/api/section/projects?username=Mohamed-Osama-ai7&amp;theme=satan&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;repos=Mohamed-Osama-ai7%2FFactoryMind-CDT%2CMohamed-Osama-ai7%2Fenterprise-customer-churn-ai%2CMohamed-Osama-ai7%2FInovice-Guard-ai%2CMohamed-Osama-ai7%2Fpromise-guard&amp;v=recruiter-projects-1&amp;mode=dark"/>
 </picture>
 </td>
 <td width="42%" valign="top">
@@ -122,8 +122,8 @@ Leak-free pipelines (<code>ColumnTransformer</code>, <code>RobustScaler</code>) 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcSet="https://www.gitskins.com/api/section/stack?username=Mohamed-Osama-ai7&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-stack-1&amp;mode=light"/>
-  <img loading="lazy" decoding="async" width="100%" alt="Mohamed Osama technology stack" src="https://www.gitskins.com/api/section/stack?username=Mohamed-Osama-ai7&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-stack-1&amp;mode=dark"/>
+  <source media="(prefers-color-scheme: light)" srcSet="https://www.gitskins.com/api/section/stack?username=Mohamed-Osama-ai7&amp;theme=satan&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-stack-1&amp;mode=light"/>
+  <img loading="lazy" decoding="async" width="100%" alt="Mohamed Osama technology stack" src="https://www.gitskins.com/api/section/stack?username=Mohamed-Osama-ai7&amp;theme=satan&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-stack-1&amp;mode=dark"/>
 </picture>
 </p>
 
@@ -152,8 +152,8 @@ Leak-free pipelines (<code>ColumnTransformer</code>, <code>RobustScaler</code>) 
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcSet="https://www.gitskins.com/api/section/heatmap?username=Mohamed-Osama-ai7&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-heatmap-1&amp;mode=light"/>
-  <img loading="lazy" decoding="async" width="100%" alt="Mohamed Osama contribution activity" src="https://www.gitskins.com/api/section/heatmap?username=Mohamed-Osama-ai7&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-heatmap-1&amp;mode=dark"/>
+  <source media="(prefers-color-scheme: light)" srcSet="https://www.gitskins.com/api/section/heatmap?username=Mohamed-Osama-ai7&amp;theme=satan&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-heatmap-1&amp;mode=light"/>
+  <img loading="lazy" decoding="async" width="100%" alt="Mohamed Osama contribution activity" src="https://www.gitskins.com/api/section/heatmap?username=Mohamed-Osama-ai7&amp;theme=satan&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F277105326%3Fv%3D4&amp;v=recruiter-heatmap-1&amp;mode=dark"/>
 </picture>
 </p>
 
