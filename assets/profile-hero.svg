@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14" />
+      <stop offset="50%" stop-color="#120c1f" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <!-- Glass Fill with Transparency -->
+    <linearGradient id="glassFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glass Border Gradient -->
+    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4500" stop-opacity="0.7" />
+      <stop offset="35%" stop-color="#ff4d8d" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#a78bfa" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#53d8fb" stop-opacity="0.7" />
+    </linearGradient>
+
+    <!-- Avatar Glow Gradient -->
+    <linearGradient id="avatarGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4500" />
+      <stop offset="25%" stop-color="#ff4d8d" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="75%" stop-color="#53d8fb" />
+      <stop offset="100%" stop-color="#ffd166" />
+    </linearGradient>
+
+    <!-- Inner Avatar Ring Gradient -->
+    <linearGradient id="avatarRing" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8c61" />
+      <stop offset="50%" stop-color="#ffd166" />
+      <stop offset="100%" stop-color="#ff4500" />
+    </linearGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4500" />
+      <stop offset="30%" stop-color="#ff8c61" />
+      <stop offset="60%" stop-color="#ffd166" />
+      <stop offset="100%" stop-color="#53d8fb" />
+    </linearGradient>
+
+    <!-- Filter for Blur & Glow Effects -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="avatarBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+    </filter>
+
+    <clipPath id="avatarClip">
+      <circle cx="1010" cy="210" r="130" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .status-pulse { animation: pulse 2.5s infinite; }
+    @keyframes pulse { 0% { opacity: 0.7; } 50% { opacity: 1; } 100% { opacity: 0.7; } }
+  </style>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="420" rx="20" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="150" cy="80" r="100" fill="#ff4500" opacity="0.18" filter="url(#softGlow)" />
+  <circle cx="1010" cy="210" r="160" fill="#a78bfa" opacity="0.22" filter="url(#softGlow)" />
+  <circle cx="650" cy="350" r="120" fill="#53d8fb" opacity="0.12" filter="url(#softGlow)" />
+  <circle cx="450" cy="60" r="90" fill="#ff4d8d" opacity="0.15" filter="url(#softGlow)" />
+
+  <!-- Glassmorphic Card Container -->
+  <rect x="20" y="20" width="1160" height="380" rx="16" fill="url(#glassFill)" stroke="url(#glassBorder)" stroke-width="1.5" />
+
+  <!-- Corner Glow Accent Lines -->
+  <path d="M 20 60 L 20 20 L 60 20" stroke="#ff4500" stroke-width="2.5" fill="none" opacity="0.8" />
+  <path d="M 1140 20 L 1180 20 L 1180 60" stroke="#53d8fb" stroke-width="2.5" fill="none" opacity="0.8" />
+  <path d="M 20 360 L 20 400 L 60 400" stroke="#a78bfa" stroke-width="2.5" fill="none" opacity="0.8" />
+  <path d="M 1140 400 L 1180 400 L 1180 360" stroke="#ffd166" stroke-width="2.5" fill="none" opacity="0.8" />
+
+  <!-- LEFT COLUMN CONTENT -->
+
+  <!-- Status Pill -->
+  <g transform="translate(60, 52)">
+    <rect width="310" height="32" rx="16" fill="#1e182e" stroke="#a78bfa" stroke-width="1" opacity="0.85" />
+    <circle cx="16" cy="16" r="5" fill="#34d399" class="status-pulse" />
+    <text x="32" y="20.5" class="font-sans" font-size="12" font-weight="700" fill="#e2e8f0" letter-spacing="0.8">AVAILABLE FOR COLLABORATION</text>
+    <rect x="238" y="6" width="60" height="20" rx="10" fill="#ff4500" opacity="0.25" />
+    <text x="248" y="19.5" class="font-sans" font-size="10.5" font-weight="800" fill="#ff8c61">CAIRO 🇪🇬</text>
+  </g>
+
+  <!-- Name -->
+  <text x="60" y="145" class="font-sans" font-size="52" font-weight="900" fill="url(#textGrad)" letter-spacing="-1.2">
+    Mohamed Osama
+  </text>
+
+  <!-- Professional Title -->
+  <text x="60" y="190" class="font-sans" font-size="24" font-weight="800" fill="url(#titleGrad)" letter-spacing="0.2">
+    AI &amp; Machine Learning Engineer
+  </text>
+
+  <!-- Value Statement -->
+  <text x="60" y="235" class="font-sans" font-size="15.5" font-weight="500" fill="#94a3b8" letter-spacing="0.1">
+    Engineering applied AI architectures, rigorous ML benchmarks, and cognitive digital twins.
+  </text>
+  <text x="60" y="260" class="font-sans" font-size="14.5" font-weight="400" fill="#64748b">
+    Transforming high-dimensional signals into calibrated, explainable (SHAP) decision intelligence.
+  </text>
+
+  <!-- Pillar Glass Badges -->
+  <g transform="translate(60, 290)">
+    <!-- Badge 1: Classical ML -->
+    <rect x="0" y="0" width="138" height="34" rx="8" fill="#191328" stroke="#ff4500" stroke-width="1.2" />
+    <circle cx="16" cy="17" r="4" fill="#ff4500" />
+    <text x="28" y="21.5" class="font-sans" font-size="12" font-weight="700" fill="#f8fafc">Classical ML (13)</text>
+
+    <!-- Badge 2: Deep Learning & NLP -->
+    <rect x="148" y="0" width="170" height="34" rx="8" fill="#141829" stroke="#a78bfa" stroke-width="1.2" />
+    <circle cx="164" cy="17" r="4" fill="#a78bfa" />
+    <text x="176" y="21.5" class="font-sans" font-size="12" font-weight="700" fill="#f8fafc">Deep Learning · NLP</text>
+
+    <!-- Badge 3: Cognitive Digital Twins -->
+    <rect x="328" y="0" width="190" height="34" rx="8" fill="#0d1b2a" stroke="#53d8fb" stroke-width="1.2" />
+    <circle cx="344" cy="17" r="4" fill="#53d8fb" />
+    <text x="356" y="21.5" class="font-sans" font-size="12" font-weight="700" fill="#f8fafc">Industrial Digital Twins</text>
+
+    <!-- Badge 4: Leak-Free CI/CD -->
+    <rect x="528" y="0" width="158" height="34" rx="8" fill="#1a1c18" stroke="#34d399" stroke-width="1.2" />
+    <circle cx="544" cy="17" r="4" fill="#34d399" />
+    <text x="556" y="21.5" class="font-sans" font-size="12" font-weight="700" fill="#f8fafc">Docker · MLOps CI</text>
+  </g>
+
+  <!-- Callout Links Line -->
+  <g transform="translate(60, 355)">
+    <text x="0" y="16" class="font-sans" font-size="13" font-weight="700" fill="#ff8c61" letter-spacing="0.5">DIRECT CHANNELS:</text>
+    <text x="140" y="16" class="font-sans" font-size="13" font-weight="600" fill="#cbd5e1">
+      ⚡ <tspan fill="#53d8fb">Interactive Portfolio</tspan>  ·  💼 <tspan fill="#a78bfa">LinkedIn Profile</tspan>  ·  🚀 <tspan fill="#ffd166">Verified Repositories</tspan>
+    </text>
+  </g>
+
+  <!-- RIGHT COLUMN: PROMINENT LARGE PHOTO SHOWCASE (260px DIAMETER) -->
+
+  <!-- Outer Luminous Glow Aura -->
+  <circle cx="1010" cy="210" r="148" fill="url(#avatarGlow)" opacity="0.35" filter="url(#avatarBlur)" />
+
+  <!-- Outer Multi-Color Glass Gradient Ring -->
+  <circle cx="1010" cy="210" r="144" fill="none" stroke="url(#avatarGlow)" stroke-width="3" opacity="0.8" />
+
+  <!-- Segmented Orbit Accents -->
+  <circle cx="1010" cy="210" r="154" fill="none" stroke="#53d8fb" stroke-width="1.5" stroke-dasharray="16 120" stroke-linecap="round" opacity="0.85" />
+  <circle cx="1010" cy="210" r="154" fill="none" stroke="#ff4500" stroke-width="1.5" stroke-dasharray="24 160" stroke-linecap="round" opacity="0.9" />
+
+  <!-- Secondary Inner Framing Ring -->
+  <circle cx="1010" cy="210" r="135" fill="none" stroke="url(#avatarRing)" stroke-width="3" />
+
+  <!-- Circular Clip for Avatar Photo -->
+  <g clip-path="url(#avatarClip)">
+    <!-- Actual High-Resolution Verified GitHub Profile Avatar -->
+    <image href="https://avatars.githubusercontent.com/u/277105326?v=4" x="880" y="80" width="260" height="260" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  <!-- Floating Glass Spec Pill on Avatar -->
+  <g transform="translate(900, 345)">
+    <rect width="220" height="30" rx="15" fill="#0b0f19" stroke="url(#glassBorder)" stroke-width="1.2" opacity="0.95" />
+    <circle cx="16" cy="15" r="4.5" fill="#53d8fb" />
+    <text x="28" y="19" class="font-sans" font-size="11.5" font-weight="700" fill="#f1f5f9" letter-spacing="0.5">DECISION ARCHITECTURES</text>
+  </g>
+</svg>

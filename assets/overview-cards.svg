@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glass Borders for the 3 Cards -->
+    <linearGradient id="borderOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4500" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#ff8c61" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ffd166" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="borderViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#ff4d8d" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ff8c61" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="borderCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#53d8fb" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#34d399" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ffd166" stop-opacity="0.3" />
+    </linearGradient>
+
+    <filter id="softGlowCard" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <!-- CARD 1: Machine Learning & Benchmarking (Left: 20 to 390) -->
+  <g transform="translate(10, 10)">
+    <!-- Soft Glow behind border -->
+    <rect x="0" y="0" width="375" height="220" rx="16" fill="#ff4500" opacity="0.08" filter="url(#softGlowCard)" />
+    <!-- Glass Body -->
+    <rect x="0" y="0" width="375" height="220" rx="16" fill="#0d111c" fill-opacity="0.85" stroke="url(#borderOrange)" stroke-width="1.6" />
+    <!-- Top Accent Line -->
+    <path d="M 24 0 L 140 0" stroke="#ff4500" stroke-width="3.5" stroke-linecap="round" />
+    <!-- Icon & Tag -->
+    <rect x="24" y="24" width="42" height="42" rx="10" fill="#1f1418" stroke="#ff4500" stroke-width="1.2" />
+    <text x="35" y="51" class="font-sans" font-size="20">⚡</text>
+    <text x="78" y="42" class="font-sans" font-size="11.5" font-weight="800" fill="#ff8c61" letter-spacing="1">PILLAR 01 · CLASSICAL ML</text>
+    <text x="78" y="58" class="font-sans" font-size="16" font-weight="800" fill="#ffffff">Rigorous ML Benchmarks</text>
+    <!-- Description -->
+    <text x="24" y="96" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      13-model classical algorithms benchmarked
+    </text>
+    <text x="24" y="116" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      with zero deep-learning bloat. Leak-free
+    </text>
+    <text x="24" y="136" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      ColumnTransformer, RobustScaler, and
+    </text>
+    <text x="24" y="156" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      calibrated ROC-AUC (0.834 champion).
+    </text>
+    <!-- Technology Tags -->
+    <rect x="24" y="174" width="90" height="24" rx="6" fill="#18131d" stroke="#ff4500" stroke-width="1" />
+    <text x="33" y="190" class="font-sans" font-size="11" font-weight="700" fill="#ffd166">Scikit-Learn</text>
+    <rect x="122" y="174" width="76" height="24" rx="6" fill="#18131d" stroke="#ff8c61" stroke-width="1" />
+    <text x="131" y="190" class="font-sans" font-size="11" font-weight="700" fill="#f8fafc">XGBoost</text>
+    <rect x="206" y="174" width="86" height="24" rx="6" fill="#18131d" stroke="#ff4500" stroke-width="1" />
+    <text x="215" y="190" class="font-sans" font-size="11" font-weight="700" fill="#f8fafc">Ensembles</text>
+  </g>
+
+  <!-- CARD 2: Deep Learning, NLP & XAI (Middle: 410 to 785) -->
+  <g transform="translate(412, 10)">
+    <!-- Soft Glow behind border -->
+    <rect x="0" y="0" width="375" height="220" rx="16" fill="#a78bfa" opacity="0.08" filter="url(#softGlowCard)" />
+    <!-- Glass Body -->
+    <rect x="0" y="0" width="375" height="220" rx="16" fill="#0e0f1e" fill-opacity="0.85" stroke="url(#borderViolet)" stroke-width="1.6" />
+    <!-- Top Accent Line -->
+    <path d="M 24 0 L 140 0" stroke="#a78bfa" stroke-width="3.5" stroke-linecap="round" />
+    <!-- Icon & Tag -->
+    <rect x="24" y="24" width="42" height="42" rx="10" fill="#1a1426" stroke="#a78bfa" stroke-width="1.2" />
+    <text x="35" y="51" class="font-sans" font-size="20">🧠</text>
+    <text x="78" y="42" class="font-sans" font-size="11.5" font-weight="800" fill="#c4b5fd" letter-spacing="1">PILLAR 02 · DL, NLP &amp; XAI</text>
+    <text x="78" y="58" class="font-sans" font-size="16" font-weight="800" fill="#ffffff">Transformers &amp; SHAP</text>
+    <!-- Description -->
+    <text x="24" y="96" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      Hybrid NLP architectures combining TF-IDF,
+    </text>
+    <text x="24" y="116" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      RoBERTa transformer representations, and
+    </text>
+    <text x="24" y="136" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      TreeExplainer SHAP feature attributions
+    </text>
+    <text x="24" y="156" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      for explainable corporate disclosures.
+    </text>
+    <!-- Technology Tags -->
+    <rect x="24" y="174" width="70" height="24" rx="6" fill="#171424" stroke="#a78bfa" stroke-width="1" />
+    <text x="33" y="190" class="font-sans" font-size="11" font-weight="700" fill="#ff4d8d">PyTorch</text>
+    <rect x="102" y="174" width="80" height="24" rx="6" fill="#171424" stroke="#c4b5fd" stroke-width="1" />
+    <text x="111" y="190" class="font-sans" font-size="11" font-weight="700" fill="#f8fafc">RoBERTa</text>
+    <rect x="190" y="174" width="90" height="24" rx="6" fill="#171424" stroke="#a78bfa" stroke-width="1" />
+    <text x="199" y="190" class="font-sans" font-size="11" font-weight="700" fill="#ffd166">SHAP (XAI)</text>
+  </g>
+
+  <!-- CARD 3: Industrial AI & Cognitive Digital Twins (Right: 815 to 1190) -->
+  <g transform="translate(815, 10)">
+    <!-- Soft Glow behind border -->
+    <rect x="0" y="0" width="375" height="220" rx="16" fill="#53d8fb" opacity="0.08" filter="url(#softGlowCard)" />
+    <!-- Glass Body -->
+    <rect x="0" y="0" width="375" height="220" rx="16" fill="#08141d" fill-opacity="0.85" stroke="url(#borderCyan)" stroke-width="1.6" />
+    <!-- Top Accent Line -->
+    <path d="M 24 0 L 140 0" stroke="#53d8fb" stroke-width="3.5" stroke-linecap="round" />
+    <!-- Icon & Tag -->
+    <rect x="24" y="24" width="42" height="42" rx="10" fill="#0a1a24" stroke="#53d8fb" stroke-width="1.2" />
+    <text x="35" y="51" class="font-sans" font-size="20">🏭</text>
+    <text x="78" y="42" class="font-sans" font-size="11.5" font-weight="800" fill="#7dd3fc" letter-spacing="1">PILLAR 03 · INDUSTRIAL AI</text>
+    <text x="78" y="58" class="font-sans" font-size="16" font-weight="800" fill="#ffffff">Cognitive Digital Twins</text>
+    <!-- Description -->
+    <text x="24" y="96" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      FactoryMind-CDT blueprint bridging IIoT
+    </text>
+    <text x="24" y="116" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      telemetry, spectral FFT signal filtering,
+    </text>
+    <text x="24" y="136" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      Weibull hazard curves, and ISO 10816
+    </text>
+    <text x="24" y="156" class="font-sans" font-size="13" font-weight="400" fill="#94a3b8">
+      prescriptive dispatch intelligence.
+    </text>
+    <!-- Technology Tags -->
+    <rect x="24" y="174" width="100" height="24" rx="6" fill="#0b1a26" stroke="#53d8fb" stroke-width="1" />
+    <text x="33" y="190" class="font-sans" font-size="11" font-weight="700" fill="#53d8fb">Digital Twins</text>
+    <rect x="132" y="174" width="76" height="24" rx="6" fill="#0b1a26" stroke="#34d399" stroke-width="1" />
+    <text x="141" y="190" class="font-sans" font-size="11" font-weight="700" fill="#f8fafc">RUL (DSP)</text>
+    <rect x="216" y="174" width="72" height="24" rx="6" fill="#0b1a26" stroke="#ffd166" stroke-width="1" />
+    <text x="225" y="190" class="font-sans" font-size="11" font-weight="700" fill="#ffd166">OPC-UA</text>
+  </g>
+</svg>
