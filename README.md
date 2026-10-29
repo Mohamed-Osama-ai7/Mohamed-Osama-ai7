@@ -109,32 +109,32 @@ An ambitious industrial AI architecture engineered to bridge continuous IIoT sen
 
 <table width="100%">
   <tr>
-    <th width="20%" style="color:#22D3EE;">01 · SENSE</th>
-    <th width="20%" style="color:#38BDF8;">02 · UNDERSTAND</th>
-    <th width="20%" style="color:#A855F7;">03 · SIMULATE</th>
-    <th width="20%" style="color:#F59E0B;">04 · DECIDE</th>
-    <th width="20%" style="color:#34D399;">05 · LEARN</th>
+    <th width="20%" style="color:#22D3EE;">01 · SENSE (Proposed)</th>
+    <th width="20%" style="color:#38BDF8;">02 · UNDERSTAND (Proposed)</th>
+    <th width="20%" style="color:#A855F7;">03 · SIMULATE (Proposed)</th>
+    <th width="20%" style="color:#F59E0B;">04 · DECIDE (Proposed)</th>
+    <th width="20%" style="color:#34D399;">05 · LEARN (Proposed)</th>
   </tr>
   <tr>
     <td valign="top">
       <strong>Multi-Sensor Telemetry</strong><br/>
-      High-frequency vibration accelerometry, thermal transients, acoustic emissions, and pressure acquisition with edge digital signal processing (DSP) filtering specifications.
+      Target design for vibration accelerometry, thermal transients, acoustic emissions, and pressure acquisition with edge digital signal processing (DSP) filtering specifications.
     </td>
     <td valign="top">
       <strong>Anomaly Scoring & Signatures</strong><br/>
-      Spectral FFT feature extraction coupled with unsupervised anomaly scoring (Isolation Forests / Autoencoders) to identify micro-fault signatures before catastrophic failure.
+      Target specification for spectral FFT feature extraction coupled with unsupervised anomaly scoring (Isolation Forests / Autoencoders) to isolate micro-fault signatures.
     </td>
     <td valign="top">
       <strong>Degradation & RUL Modeling</strong><br/>
-      Physics-informed degradation curves and Weibull hazard rate estimation to project Remaining Useful Life (RUL) under dynamic production loads.
+      Formulated physics-informed degradation curves and Weibull hazard rate estimation to simulate Remaining Useful Life (RUL) under dynamic production loads.
     </td>
     <td valign="top">
       <strong>Prescriptive Intervention</strong><br/>
-      Automated maintenance dispatching calibrated against ISO 10816 vibration standards, generating prioritized work orders with root-cause attribution.
+      Proposed dispatch matrix calibrated against ISO 10816 vibration standards, routing prioritized maintenance recommendations with root-cause attribution.
     </td>
     <td valign="top">
       <strong>Closed-Loop Feedback</strong><br/>
-      Feedback protocol that continuously recalibrates sensor baseline thresholds using post-intervention teardown logs and component lifecycle history.
+      Proposed feedback protocol to recalibrate sensor baseline thresholds using post-intervention teardown logs and component lifecycle history.
     </td>
   </tr>
 </table>
@@ -175,16 +175,16 @@ An ambitious industrial AI architecture engineered to bridge continuous IIoT sen
   <tr>
     <td width="65%" valign="top">
       <p>
-        Production-grade financial intelligence engine that predicts commercial late-payment risk, quantifies revenue exposure, and extracts customer sentiment from unstructured communication trails.
+        End-to-end financial intelligence engine that predicts commercial late-payment risk, quantifies revenue exposure, and extracts customer sentiment from unstructured communication trails.
       </p>
       <ul>
         <li><strong>Multi-Model Architecture:</strong> Deploys 5 concurrent scikit-learn models covering binary payment risk classification, days-late regression, dispute risk NLP, repurchase scoring, and future revenue estimation.</li>
-        <li><strong>Explainability & Controls:</strong> Full SHAP TreeExplainer feature attribution for every invoice, multi-signal composite risk scoring, deterministic P1–P4 action playbooks, and PBKDF2-HMAC authenticated RBAC security.</li>
-        <li><strong>Interactive Serving:</strong> Real-time Streamlit dashboard providing single-invoice inspection and bulk portfolio stress-testing.</li>
+        <li><strong>Explainability & Controls:</strong> SHAP TreeExplainer feature attribution for invoice risk assessment, multi-signal composite risk scoring, deterministic P1–P4 action playbooks, and PBKDF2-HMAC authenticated RBAC security.</li>
+        <li><strong>Interactive Serving:</strong> Interactive Streamlit dashboard providing single-invoice inspection and bulk portfolio stress-testing.</li>
       </ul>
       <div>
         <a href="https://inovice-guard-ai-17.streamlit.app/">
-          <img src="https://img.shields.io/badge/Live_Application-Streamlit_Cloud-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Live App" />
+          <img src="https://img.shields.io/badge/Demo_Access-Streamlit_Cloud_(Auth_Required)-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Demo Access (Auth Required)" />
         </a>
         &nbsp;
         <a href="https://github.com/Mohamed-Osama-ai7/Inovice-Guard-ai">
@@ -275,17 +275,17 @@ An ambitious industrial AI architecture engineered to bridge continuous IIoT sen
   <tr>
     <td colspan="2" bgcolor="#0A161C" style="border-left: 4px solid #22D3EE; padding: 12px;">
       <h3 style="color:#22D3EE; margin: 0;">04 · Full-Stack Systems & MEAN Architecture</h3>
-      <p style="color:#94A3B8; margin: 4px 0 0 0;"><em>Component-Driven Frontends & Scalable Micro-Services for AI Delivery</em></p>
+      <p style="color:#94A3B8; margin: 4px 0 0 0;"><em>Component-Driven Frontends & Modular Backend Services for AI Delivery</em></p>
     </td>
   </tr>
   <tr>
     <td width="65%" valign="top">
       <p>
-        Supplementary software engineering expertise bridging data science models with production web interfaces, scalable REST APIs, and document database backends.
+        Supplementary software engineering expertise bridging data science models with responsive web interfaces, structured REST APIs, and document database backends.
       </p>
       <ul>
-        <li><strong>Frontend Architecture:</strong> Modular Angular single-page applications with reactive state management, clean component hierarchies, and real-time visualization widgets.</li>
-        <li><strong>Backend Microservices:</strong> Node.js and Express.js RESTful service architectures with structured JSON schema validation and JWT authentication.</li>
+        <li><strong>Frontend Architecture:</strong> Modular Angular single-page applications with reactive state management, clean component hierarchies, and interactive visualization widgets.</li>
+        <li><strong>Backend Services:</strong> Node.js and Express.js RESTful service architectures with structured JSON schema validation and JWT authentication.</li>
         <li><strong>Data Persistence:</strong> MongoDB document modeling, indexing strategies, and aggregation pipelines.</li>
       </ul>
     </td>
